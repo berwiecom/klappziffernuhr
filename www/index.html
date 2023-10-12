@@ -1,7 +1,7 @@
-<!doctype html>
-<html manifest="cache.manifest">
+<!DOCTYPE html>
+<html lang="de" manifest="cache.manifest">
     <head>
-        <title>FlipClock</title>
+        <title>Klappuhr</title>
 
         <meta name="apple-mobile-web-app-capable" content="yes" />
         <meta name="apple-mobile-web-app-status-bar-style" content="black" />
@@ -14,9 +14,9 @@
         <link rel="shortcut icon" type="image/x-icon" href="/images/logos/FlipClock_64_full.png" sizes="64x64">
         <link rel="shortcut icon" type="image/x-icon" href="/images/logos/FlipClock_32_full.png" sizes="32x32">
 
-        <script type="text/javascript" src="vendor/nobleModules.js"></script>
-        <script type="text/javascript" src="package.js"></script>
-        <script type="text/javascript" charset="utf-8" src="init.js"></script>
+        <script src="vendor/nobleModules.js"></script>
+        <script src="package.js"></script>
+        <script src="init.js" charset="utf-8"></script>
 
         <link rel="stylesheet" type="text/css" href="css/font/font.css">
         <link rel="stylesheet" type="text/css" href="css/app.css">
@@ -26,11 +26,11 @@
             <div id="toolbarContainer" class="bar_container"></div>
             <div id="container"></div>
             <div id="toolbar" class="bar">
-                <a href="#/" class="clock button icon icon_clock"><span class="label">Clock</span></a>
                 <a dialog="countdown" class="countdown button icon icon_countdown"><span class="label">Countdown</span></a>
+                <a href="#/" class="clock button icon icon_clock"><span class="label">Klappuhr</span></a>
 
-                <a dialog="about" class="button button_right icon icon_star"><span class="label">About</span></a>
-                <a dialog="options" class="button button_right icon icon_options"><span class="label">Options</span></a>
+                <a dialog="about" class="button button_right icon icon_star"><span class="label">&Uuml;ber</span></a>
+                <a dialog="options" class="button button_right icon icon_options"><span class="label">Einstellungen</span></a>
             </div>
         </div>
     </body>
